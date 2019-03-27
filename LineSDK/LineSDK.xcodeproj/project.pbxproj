@@ -253,6 +253,9 @@
 		DBF20278212C137D00780358 /* GetApproversInGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF20277212C137D00780358 /* GetApproversInGroupRequest.swift */; };
 		DBF2027B212D58FC00780358 /* GetGroupsRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2027A212D58FC00780358 /* GetGroupsRequestTests.swift */; };
 		DBF2027D212D5B5200780358 /* GetApproversInGroupRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2027C212D5B5200780358 /* GetApproversInGroupRequestTests.swift */; };
+		DBFBD439224B85F500A74D44 /* SelectedTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFBD438224B85F500A74D44 /* SelectedTargetView.swift */; };
+		DBFBD43B224B86A900A74D44 /* SelectedTargetViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFBD43A224B86A900A74D44 /* SelectedTargetViewCell.swift */; };
+		DBFBD43D224B881500A74D44 /* UICollectionReusableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFBD43C224B881500A74D44 /* UICollectionReusableViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -540,6 +543,9 @@
 		DBF20277212C137D00780358 /* GetApproversInGroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApproversInGroupRequest.swift; sourceTree = "<group>"; };
 		DBF2027A212D58FC00780358 /* GetGroupsRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGroupsRequestTests.swift; sourceTree = "<group>"; };
 		DBF2027C212D5B5200780358 /* GetApproversInGroupRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApproversInGroupRequestTests.swift; sourceTree = "<group>"; };
+		DBFBD438224B85F500A74D44 /* SelectedTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTargetView.swift; sourceTree = "<group>"; };
+		DBFBD43A224B86A900A74D44 /* SelectedTargetViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTargetViewCell.swift; sourceTree = "<group>"; };
+		DBFBD43C224B881500A74D44 /* UICollectionReusableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionReusableViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -708,6 +714,9 @@
 				D16D5325224873C700BAA3B4 /* ShareTargetSelectingViewController.swift */,
 				D16D53292248B01600BAA3B4 /* ShareTargetSelectingTableCell.swift */,
 				D16D5327224876B900BAA3B4 /* ColumnDataStore.swift */,
+				DBFBD438224B85F500A74D44 /* SelectedTargetView.swift */,
+				DBFBD43A224B86A900A74D44 /* SelectedTargetViewCell.swift */,
+				DBFBD43C224B881500A74D44 /* UICollectionReusableViewExtension.swift */,
 			);
 			path = SharingUI;
 			sourceTree = "<group>";
@@ -1576,6 +1585,7 @@
 				4B15EEF6211D46FF00866E6C /* Message.swift in Sources */,
 				4BBAFC452101BB9E00E7BFF6 /* LineSDKError.swift in Sources */,
 				4BD24CF5213E278700606411 /* JWA.swift in Sources */,
+				DBFBD43D224B881500A74D44 /* UICollectionReusableViewExtension.swift in Sources */,
 				D16D5326224873C700BAA3B4 /* ShareTargetSelectingViewController.swift in Sources */,
 				4BCD278E2113E9A900B90D8F /* GetVerifyTokenRequest.swift in Sources */,
 				4B15EEF8211D473400866E6C /* MessageSender.swift in Sources */,
@@ -1640,6 +1650,7 @@
 				4B1C44692137E1EE0094C1D4 /* JWTHelpers.swift in Sources */,
 				4B5EE2E4212BCE1A0009DF2E /* FlexBlockStyle.swift in Sources */,
 				4B63F4732106FDCC003D1BF1 /* LoginProcessURLResponse.swift in Sources */,
+				DBFBD43B224B86A900A74D44 /* SelectedTargetViewCell.swift in Sources */,
 				4B25A815213687A400C74B87 /* RSA.swift in Sources */,
 				DBDCFD322126BD7200E8327A /* GetApproversInFriendsRequest.swift in Sources */,
 				4B5EE2DD212BAF2C0009DF2E /* FlexSpacerComponent.swift in Sources */,
@@ -1654,6 +1665,7 @@
 				4BFD605C212A8775009E9838 /* FlexTextComponent.swift in Sources */,
 				4B9A305421215A1A00174C6F /* TemplateConfirmPayload.swift in Sources */,
 				4BF45A8221377DCF00CCD28E /* CryptoError.swift in Sources */,
+				DBFBD439224B85F500A74D44 /* SelectedTargetView.swift in Sources */,
 				4BFD6062212A8F55009E9838 /* FlexMessageComponent.swift in Sources */,
 				4B4464E8212D093D008D3624 /* TemplateMessageProperties.swift in Sources */,
 				4B45256B2101810D00A39D4F /* LoginProcess.swift in Sources */,
